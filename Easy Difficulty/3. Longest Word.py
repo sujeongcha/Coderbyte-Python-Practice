@@ -14,7 +14,7 @@ def LongestWord(sen):
   max_word = max(arr, key=len)
   return max_word
   
-#Best Solution    ** str.isalpha() returns “True” if all characters in the string are alphabets
+#Best Solution    * str.isalpha() returns “True” if all characters in the string are alphabets
 def LongestWord(sen):
     nw = ""
     for letter in sen:
