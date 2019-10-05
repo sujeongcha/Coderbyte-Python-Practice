@@ -8,6 +8,6 @@ def FirstReverse(str):
     str_r += str[-(i+1)]
   return str_r
 
-#Best Solution (one line!)
+#Best Solution (just one line!)
 def FirstReverse(str): 
   return str[::-1]
