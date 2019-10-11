@@ -8,3 +8,4 @@ def SimpleAdding(num):
   for i in range(num):
     nums += (i+1)
   return nums
+
